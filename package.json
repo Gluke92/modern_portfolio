@@ -1,0 +1,22 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gluke92/modern_portfolio.git"
+  },
+  "author": "George Luke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gluke92/modern_portfolio/issues"
+  },
+  "homepage": "https://github.com/Gluke92/modern_portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
