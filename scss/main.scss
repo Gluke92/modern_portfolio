@@ -1,4 +1,5 @@
 @import 'config';
+@import 'menu';
 
 * {
     box-sizing: border-box;
@@ -32,20 +33,21 @@ h3 {
     }
 }
 
-    a {
-        color: white;
-        text-decoration: none;
-    }
+a {
+    color: white;
+    text-decoration: none;
+}
 
-    header {
-        position: fixed;
-        z-index: 2;
-        width: 100%;
-    }
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
 
-    .text-secondary {
-        color: $secondary-color;
-    }
+.text-secondary {
+    color: $secondary-color;
+}
+
 main {
     padding: 4rem;
     height: 100%;
@@ -59,14 +61,15 @@ main {
             &:hover {
                 color: $secondary-color;
                 @include easeOut();
-                
+
             }
         }
-        
+
     }
 
     &#home {
         overflow: hidden;
+
         h1 {
             margin-top: 20vh; //viewport height units (100, starting from top)
         }
